@@ -10,15 +10,17 @@
     font-family: 'Roboto';
     font-style: normal;
 }
+
 .list{
-    /* padding: 0;
-    margin: 0; */
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
-/* h1, h2, h3, p{
+h1, h2, h3, p{
     margin: 0;
-} */
+    padding: 0;
+}
 
 
 .container{
@@ -42,8 +44,13 @@
 
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
-
+li{
+    margin: 0;
+    padding: 0;
+}
 
 
 
@@ -159,17 +166,18 @@ ul{
     align-items: center;
     justify-content: center;
     padding: 0;
+    gap: 30px;
    
 }
 .projects-item{
-    margin-right: 30px;
+    /* margin-right: 30px; */
     width: 370px;
    
    
 }
-.projects-item :last-child{
+/* .projects-item:last-child{
     margin: 0;
-}
+} */
 
 
 .projects-naim{
@@ -290,6 +298,7 @@ ul{
   
     
 }
+
 .btn{
     padding: 10px 32px;
     font-family: 'Roboto';
@@ -458,6 +467,7 @@ ul{
 }
 .img{
     padding-top: 94px;
+    padding-bottom: 94px;
     
     
 }

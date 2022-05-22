@@ -77,7 +77,7 @@ li{
     font-size: 26px;
     line-height: 31px;
     margin-top: 60px;
-    
+    margin-bottom: 20px;
     letter-spacing: 0.03em;
    
 } 
@@ -147,7 +147,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 
     
     
@@ -163,21 +163,19 @@ li{
 .projects-list{
     flex-wrap: wrap;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     padding: 0;
     gap: 30px;
    
 }
 .projects-item{
-    /* margin-right: 30px; */
+    
     width: 370px;
    
    
 }
-/* .projects-item:last-child{
-    margin: 0;
-} */
+
 
 
 .projects-naim{
@@ -348,7 +346,7 @@ li{
     text-align: center;
     letter-spacing: 0.03em;
     color: white;
-    background-color: blue;
+    background-color: #2196F3;
     min-width: 73px;
     border: 1px solid transparent;
 
@@ -501,6 +499,7 @@ li{
 .our-team{
     background-color: #F5F4FA;
     padding-top: 94px;
+    padding-bottom: 94px;
     
 
 }
@@ -524,7 +523,7 @@ li{
 }
 .our-team-item{
     margin-right: 30px;
-    margin-bottom: 94px;
+    
     
 }
 .our-team-item :last-child{
@@ -542,7 +541,7 @@ li{
     font-size: 16px;
     line-height: 19px;
      
-
+    margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -569,6 +568,13 @@ li{
     padding-bottom: 60px;
     
 }
+.address{
+    margin-top: 20px;
+}
+.address-item{
+    
+    margin-top: 9px;
+}
 
 .adres{
     text-decoration: none;
@@ -578,7 +584,7 @@ li{
     font-size: 14px;
     line-height: 24px;
     
-    margin-top: 9px;
+    
     letter-spacing: 0.03em;
     
     color: rgba(255, 255, 255, 0.6);
@@ -590,7 +596,7 @@ li{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    margin-top: 20px;
+    
 
     letter-spacing: 0.03em;
     text-decoration: none;
